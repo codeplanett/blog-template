@@ -16,5 +16,8 @@ node server.js
 * Blog
 * Articles
 
+# Preview
+See the preview from [here](https://blog-templatee.glitch.me).
+
 # Credits 
 Powered by CodePlanet Team.
