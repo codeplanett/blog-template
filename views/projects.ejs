@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" href = "style.css">
+     <%- include('partials/menu.ejs') %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class = "container" align = "center">
+      <h2>
+        Projects
+      </h2>
+    </div>
+    <br>
+    <div class = "project-card">
+      <span class = "title">Project name : Lorem ipsum</span><br><br>
+      <span class = "small-description">Project small description : Lorem ipsum dolor sit amet</span><br><br>
+      <span class = "long-description">Project long description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum augue, aliquam ultrices tempor placerat, tincidunt non neque.</span><br><br>
+      <span id = "icon"><a href = "#">Github</a></span>
+    </div>
+    <div class = "project-card">
+      <span class = "title">Project name : Lorem ipsum</span><br><br>
+      <span class = "small-description">Project small description : Lorem ipsum dolor sit amet</span><br><br>
+      <span class = "long-description">Project long description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum augue, aliquam ultrices tempor placerat, tincidunt non neque.</span><br><br>
+      <span id = "icon"><a href = "#">Github</a></span>
+    </div>
+    <div class = "project-card">
+      <span class = "title">Project name : Lorem ipsum</span><br><br>
+      <span class = "small-description">Project small description : Lorem ipsum dolor sit amet</span><br><br>
+      <span class = "long-description">Project long description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum augue, aliquam ultrices tempor placerat, tincidunt non neque.</span><br><br>
+      <span id = "icon"><a href = "#">Github</a></span>
+    </div>
+    <br><br>
+    <div class = "container" align = "center">
+      <h2>
+        Packages
+      </h2>
+    </div>
+    <br>
+    <div class = "project-card">
+      <span class = "title">Package name : Lorem ipsum</span><br><br>
+      <span class = "small-description">Package platform: npm</span><br><br>
+      <span class = "long-description">Package description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum augue, aliquam ultrices tempor placerat, tincidunt non neque.</span><br><br>
+      <span id = "icon"><a href = "#">Npmjs</a></span>
+    </div>
+    <div class = "project-card">
+      <span class = "title">Package name : Lorem ipsum</span><br><br>
+      <span class = "small-description">Package platform : pip</span><br><br>
+      <span class = "long-description">Package description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum augue, aliquam ultrices tempor placerat, tincidunt non neque.</span><br><br>
+      <span id = "icon"><a href = "#">Pip</a></span>
+    </div>
+    <div class = "project-card">
+      <span class = "title">Package name : Lorem ipsum</span><br><br>
+      <span class = "small-description">Package platform : gem</span><br><br>
+      <span class = "long-description">Package description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum augue, aliquam ultrices tempor placerat, tincidunt non neque.</span><br><br>
+      <span id = "icon"><a href = "#">Gem</a></span>
+    </div>
+  </body>
+  <style>
+    .project-card {
+      width : 300px;
+      height : 350px;
+      border : 2px solid black;
+      padding : 15px;
+      border-radius : 6px;
+      text-align : center;
+      margin : auto 65px;
+      display : inline-block;
+      transition : 300ms ease-in;
+    }
+    
+    .project-card:hover {
+      background : black;
+      color : white;
+      transform : scale(1.05);
+    }
+    
+    .project-card:hover a {
+      color : white;
+    }
+  </style>
+</html>
