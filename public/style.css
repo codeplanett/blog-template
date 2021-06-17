@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+  font-family : "Poppins", sans-serif;
+  margin : 20px;
+}
+
+li { 
+  list-style : none;
+}
+
+ul li {
+  display : inline;
+  margin : 20px;
+}
+
+ul li:hover {
+  cursor : pointer;
+}
+
+.contact {
+  position : absolute;
+  right : 30px;
+  top : -10px;
+  padding : 10px;
+  background : gold;
+  border-radius : 50px;
+}
+
+a {
+  text-decoration : none;
+  color : black;
+}
+@font-face {
+    font-family : "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.leftPart {
+    width: 55%;
+    height: 550px;
+    font-family : "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.leftPartimg{
+    width: 100%;
+    height: 470px;
+    margin-top: 10px;
+}
+.rightPart {
+    width: 500px;
+    height: 580px;
+    background-color: white;
+    margin: -25px 40px 0 0px;
+    border-radius: 10px;
+    box-shadow: 6px 9px 16px #868686, -6px -9px 16px #868686;
+}
+
+.inputs {
+    width: 70%;
+    height: 40px;
+    outline: none;
+    display: block;
+    margin: 30px auto 0 auto;
+    border: 0;
+    border-radius: 10px;
+    background: #cccccc;
+    padding-left: 20px;
+}
+
+.inputs::placeholder {
+    font-family : "Poppins", sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+#message {
+    height: 150px;
+}
+
+.btn {
+    width: 30%;
+    height: 35px;
+    margin-top: 50px;
+    display: block;
+    font-family : "Poppins", sans-serif;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    padding: 20px 0;
+     border-radius: 0 0 10px 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul li {
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(102, 101, 101);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.footer ul li h4 {
+    font-family : "Poppins", sans-serif;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family : "Poppins", sans-serif;
+}
+
+button {
+     height: 50px;
+     width: 120px;
+     cursor : pointer;
+     background: rgb(0, 128, 255);
+     border: none;
+     border-radius: 3px;
+     color: white;
+     font-size : 25px;
+ }
+
+ button:hover {
+     background: rgb(18, 85, 151);
+ }
