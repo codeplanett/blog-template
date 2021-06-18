@@ -6,7 +6,7 @@ Blog Template for Beginners. Feel free to use it.
 git clone
 cd blog-template
 npm install
-node server.js
+npm start
 ```
 
 # Including
